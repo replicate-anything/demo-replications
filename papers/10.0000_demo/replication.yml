@@ -1,0 +1,15 @@
+paper:
+  title: "Demo Replication Paper"
+  authors:
+    - Washington, Vermon
+  year: 2026
+  doi: "10.0000/demo"
+  journal: "Replication Journal"
+
+replications:
+
+  - id: fig_1
+    type: figure
+    description: "Example bar chart"
+    data: processed/fig_1.csv
+    code: code/fig_1.R
