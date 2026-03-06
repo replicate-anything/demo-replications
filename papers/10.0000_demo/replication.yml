@@ -1,15 +1,21 @@
 paper:
-  title: "Demo Replication Paper"
+  title: "Market Design and Moral Behavior"
   authors:
-    - Washington, Vermon
-  year: 2026
-  doi: "10.0000/demo"
-  journal: "Replication Journal"
+    - Bartling, Björn
+    - Fehr, Ernst
+  year: 2024
+  doi: "10.1257/aer.20221688"
+  journal: "American Economic Review"
 
 replications:
-
   - id: fig_1
     type: figure
-    description: "Example bar chart"
+    description: "Market shares of responsible products"
     data: processed/fig_1.csv
     code: code/fig_1.R
+
+  - id: tab_1
+    type: table
+    description: "Summary statistics"
+    data: processed/tab_1.csv
+    code: code/tab_1.R
