@@ -8,14 +8,15 @@ paper:
   journal: "American Economic Review"
 
 replications:
+
   - id: fig_1
     type: figure
-    description: "Market shares of responsible products"
+    description: "Example figure"
     data: processed/fig_1.csv
     code: code/fig_1.R
 
   - id: tab_1
     type: table
-    description: "Summary statistics"
+    description: "Example table"
     data: processed/tab_1.csv
     code: code/tab_1.R
